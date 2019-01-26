@@ -17,7 +17,7 @@
             integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
             crossorigin="anonymous"></script>
 
-    <title>Todos App</title>
+    <title>یاد داشت</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
@@ -25,6 +25,7 @@
     <!-- Styles -->
     <style>
         html, body {
+            direction: rtl;
             background-color: #fff;
             color: #636b6f;
             font-family: 'Nunito', sans-serif;

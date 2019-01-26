@@ -1,5 +1,5 @@
 @extends('layout')
 
 @section('content')
-    <a href="/todos">Visit my todos</a>
+    <a href="/todos">نمایش نوشته ها</a>
 @endsection
