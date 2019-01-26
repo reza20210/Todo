@@ -15,7 +15,17 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/', [
+Route::get('/todos', [
     'uses' => 'TodosController@index'
 ]);
+
+Route::post('/todo/create', [
+    'uses' => 'TodosController@store'
+]);
+
+Route::get('/todo/delete/{id}', [
+    'uses' => 'TodosController@delete',
+    'as' => 'todo.delete'
+]);
+
 
